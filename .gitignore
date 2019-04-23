@@ -1,0 +1,5 @@
+cache_*
+*.lock
+/vendor
+composer.phar
+.DS_Store

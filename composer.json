@@ -1,0 +1,6 @@
+{
+    "require": {
+        "smalot/pdfparser": "^0.14.0",
+        "spatie/pdf-to-text": "^1.1"
+    }
+}
