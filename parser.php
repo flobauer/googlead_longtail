@@ -14,7 +14,7 @@ $pdftotext = '/usr/local/bin/pdftotext';
 $campaign_name = "";
 $ad_group = "";
 
-$files = array_diff(scandir($path), array('.', '..'));
+$files = array_diff(scandir($path), array('.', '..', '.DS_Store', '.gitignore'));
 
 // empty pdf text file
 fclose(fopen('cache_pdf.txt','w'));
